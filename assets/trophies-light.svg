@@ -1,0 +1,110 @@
+<svg width="770" height="132" viewBox="0 0 770 132"
+  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="RyoTACHIWANA's trophies">
+  <defs>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#000000" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <g transform="translate(0,0)">
+    <rect x="1.5" y="1.5" width="117" height="129" rx="8"
+          fill="#fffefe" stroke="#e4e2e2" stroke-width="1.2" filter="url(#sh)"/>
+    <text x="60" y="26" text-anchor="middle"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="13.5" font-weight="700" fill="#434d58">Stars</text>
+    <circle cx="60" cy="70" r="26" fill="none" stroke="#dfe2e5" stroke-width="6"/>
+    <circle cx="60" cy="70" r="26" fill="none" stroke="#8b949e" stroke-width="6"
+            stroke-linecap="round" stroke-dasharray="0.00 163.36"
+            transform="rotate(-90 60 70)"/>
+    <text x="60" y="70" text-anchor="middle" dominant-baseline="central"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="27" font-weight="800" fill="#8b949e">C</text>
+    <text x="60" y="119" text-anchor="middle"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="14" font-weight="700" fill="#6f8ff7">0</text>
+  </g>
+  <g transform="translate(130,0)">
+    <rect x="1.5" y="1.5" width="117" height="129" rx="8"
+          fill="#fffefe" stroke="#e4e2e2" stroke-width="1.2" filter="url(#sh)"/>
+    <text x="60" y="26" text-anchor="middle"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="13.5" font-weight="700" fill="#434d58">Commits</text>
+    <circle cx="60" cy="70" r="26" fill="none" stroke="#dfe2e5" stroke-width="6"/>
+    <circle cx="60" cy="70" r="26" fill="none" stroke="#6f8ff7" stroke-width="6"
+            stroke-linecap="round" stroke-dasharray="38.12 163.36"
+            transform="rotate(-90 60 70)"/>
+    <text x="60" y="70" text-anchor="middle" dominant-baseline="central"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="27" font-weight="800" fill="#6f8ff7">B</text>
+    <text x="60" y="119" text-anchor="middle"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="14" font-weight="700" fill="#6f8ff7">27</text>
+  </g>
+  <g transform="translate(260,0)">
+    <rect x="1.5" y="1.5" width="117" height="129" rx="8"
+          fill="#fffefe" stroke="#e4e2e2" stroke-width="1.2" filter="url(#sh)"/>
+    <text x="60" y="26" text-anchor="middle"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="13.5" font-weight="700" fill="#434d58">Followers</text>
+    <circle cx="60" cy="70" r="26" fill="none" stroke="#dfe2e5" stroke-width="6"/>
+    <circle cx="60" cy="70" r="26" fill="none" stroke="#8b949e" stroke-width="6"
+            stroke-linecap="round" stroke-dasharray="81.68 163.36"
+            transform="rotate(-90 60 70)"/>
+    <text x="60" y="70" text-anchor="middle" dominant-baseline="central"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="27" font-weight="800" fill="#8b949e">C</text>
+    <text x="60" y="119" text-anchor="middle"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="14" font-weight="700" fill="#6f8ff7">1</text>
+  </g>
+  <g transform="translate(390,0)">
+    <rect x="1.5" y="1.5" width="117" height="129" rx="8"
+          fill="#fffefe" stroke="#e4e2e2" stroke-width="1.2" filter="url(#sh)"/>
+    <text x="60" y="26" text-anchor="middle"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="13.5" font-weight="700" fill="#434d58">Repositories</text>
+    <circle cx="60" cy="70" r="26" fill="none" stroke="#dfe2e5" stroke-width="6"/>
+    <circle cx="60" cy="70" r="26" fill="none" stroke="#6f8ff7" stroke-width="6"
+            stroke-linecap="round" stroke-dasharray="81.68 163.36"
+            transform="rotate(-90 60 70)"/>
+    <text x="60" y="70" text-anchor="middle" dominant-baseline="central"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="27" font-weight="800" fill="#6f8ff7">B</text>
+    <text x="60" y="119" text-anchor="middle"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="14" font-weight="700" fill="#6f8ff7">4</text>
+  </g>
+  <g transform="translate(520,0)">
+    <rect x="1.5" y="1.5" width="117" height="129" rx="8"
+          fill="#fffefe" stroke="#e4e2e2" stroke-width="1.2" filter="url(#sh)"/>
+    <text x="60" y="26" text-anchor="middle"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="13.5" font-weight="700" fill="#434d58">PullRequest</text>
+    <circle cx="60" cy="70" r="26" fill="none" stroke="#dfe2e5" stroke-width="6"/>
+    <circle cx="60" cy="70" r="26" fill="none" stroke="#8b949e" stroke-width="6"
+            stroke-linecap="round" stroke-dasharray="0.00 163.36"
+            transform="rotate(-90 60 70)"/>
+    <text x="60" y="70" text-anchor="middle" dominant-baseline="central"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="27" font-weight="800" fill="#8b949e">C</text>
+    <text x="60" y="119" text-anchor="middle"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="14" font-weight="700" fill="#6f8ff7">0</text>
+  </g>
+  <g transform="translate(650,0)">
+    <rect x="1.5" y="1.5" width="117" height="129" rx="8"
+          fill="#fffefe" stroke="#e4e2e2" stroke-width="1.2" filter="url(#sh)"/>
+    <text x="60" y="26" text-anchor="middle"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="13.5" font-weight="700" fill="#434d58">Issues</text>
+    <circle cx="60" cy="70" r="26" fill="none" stroke="#dfe2e5" stroke-width="6"/>
+    <circle cx="60" cy="70" r="26" fill="none" stroke="#8b949e" stroke-width="6"
+            stroke-linecap="round" stroke-dasharray="0.00 163.36"
+            transform="rotate(-90 60 70)"/>
+    <text x="60" y="70" text-anchor="middle" dominant-baseline="central"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="27" font-weight="800" fill="#8b949e">C</text>
+    <text x="60" y="119" text-anchor="middle"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="14" font-weight="700" fill="#6f8ff7">0</text>
+  </g>
+</svg>
