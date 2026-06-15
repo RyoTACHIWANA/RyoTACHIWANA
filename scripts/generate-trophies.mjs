@@ -9,7 +9,7 @@
 import { writeFileSync, mkdirSync } from "node:fs";
 
 const TOKEN = process.env.GITHUB_TOKEN;
-const LOGIN = process.env.GH_LOGIN || "__USERNAME__";
+const LOGIN = process.env.GH_LOGIN || "RyoTACHIWANA";
 if (!TOKEN) {
   console.error("GITHUB_TOKEN is required");
   process.exit(1);

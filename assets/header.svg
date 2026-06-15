@@ -1,4 +1,4 @@
-<svg width="100%" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Welcome to __USERNAME__'s Profile">
+<svg width="100%" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Welcome to RyoTACHIWANA's Profile">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#6f8ff7">
@@ -17,7 +17,7 @@
     <animateTransform attributeName="transform" type="translate" values="0 0;-600 0" dur="14s" repeatCount="indefinite"/>
   </use>
   <text x="600" y="92" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff" opacity="0">
-    Welcome to __USERNAME__&apos;s Profile
+    Welcome to RyoTACHIWANA&apos;s Profile
     <animate attributeName="opacity" from="0" to="1" dur="1.2s" fill="freeze"/>
   </text>
   <text x="600" y="130" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" fill="#ffffff" opacity="0">

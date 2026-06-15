@@ -1,184 +1,191 @@
-# GitHub Profile README Starter
+<!--
+  This is your GitHub profile README. Edit the TODO sections below
+  (About Me / Featured Projects / Skills).
+  これはあなたのプロフィールREADMEです。下のTODO（About Me / Featured Projects / Skills）を編集してください。
+-->
 
-A ready-made GitHub **profile** that auto-generates and self-hosts trophies, stats,
-a streak card, top languages, a contribution snake, a metrics dashboard, and a 3D
-"city" built from your commits. Everything updates on a schedule from real data.
-
-GitHubの**プロフィール**を一式そろえるテンプレートです。トロフィー・統計・連続記録・使用言語・
-スネーク・メトリクス・コミット履歴から育つ3Dの街を、実データから自動更新します。
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-6f8ff7?style=flat-square)](LICENSE)
-![Template](https://img.shields.io/badge/Use_this-template-2ea44f?style=flat-square&logo=github)
-
-**This guide is written in English and 日本語 — この解説は英語と日本語で読めます: [English](#english) ・ [日本語](#日本語)**
-
----
-
-## Live example / 実例
-
-A real profile built with this template — このテンプレートで作った実例:
-
-### [github.com/uzuchan](https://github.com/uzuchan)
-
+<!-- ============ Header banner (self-hosted SVG) ============ -->
 <div align="center">
 
-![header](https://raw.githubusercontent.com/uzuchan/uzuchan/main/assets/header.svg)
+![header](https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/header.svg)
+
+<!-- ============ Trophies (self-generated, auto-updated every 6h) ============ -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/uzuchan/uzuchan/main/assets/trophies-dark.svg">
-  <img alt="trophies" src="https://raw.githubusercontent.com/uzuchan/uzuchan/main/assets/trophies-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/trophies-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/trophies-light.svg?v=1">
+  <img alt="trophies" src="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/trophies-light.svg?v=1">
 </picture>
 
-<img height="160" alt="stats" src="https://raw.githubusercontent.com/uzuchan/uzuchan/main/assets/stats.svg">
-<img height="160" alt="top languages" src="https://raw.githubusercontent.com/uzuchan/uzuchan/main/assets/top-langs.svg">
+<!-- ============ Typing animation ============ -->
+
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&pause=1000&color=6F8FF7&center=true&vCenter=true&width=600&lines=Hello%2C+I'm+RyoTACHIWANA;Welcome+to+my+GitHub;Always+building+something)](https://git.io/typing-svg)
+
+<!-- ============ Profile view counter ============ -->
+
+![Profile Views](https://komarev.com/ghpvc/?username=RyoTACHIWANA&label=Profile%20Views&color=6f8ff7&style=flat)
 
 </div>
 
----
+<br>
 
-# English
+<!-- ============================================================= -->
+<!-- 1. About Me  (TODO: replace with your own)                    -->
+<!-- ============================================================= -->
 
-## What you get
+## About Me
 
-- Trophies, GitHub stats, streak, and top-languages cards — **self-generated from real data, no third-party service**
-- A contribution **snake** animation and a **metrics** dashboard
-- A 3D **contribution city** (with a link to the interactive WebGL version)
-- An animated header banner and skill icons
-- **Auto-updates** via GitHub Actions (trophies/stats every 6h, the rest daily)
-- Works with the built-in token — **no Personal Access Token needed**
-
-## How to use
-
-> You will need a GitHub account and a terminal with `git` (or GitHub Desktop).
-
-**1. Create your profile repository.**
-Create a **public** repository whose name is **exactly your username** (e.g. username `octocat` -> repo `octocat`).
-GitHub shows a "you found a secret!" note, confirming it is your special profile repo.
-Easiest: the green **"Use this template"** button at the top of this page -> name it like your username.
-
-**2. Get the files locally.**
-```bash
-git clone https://github.com/<your-username>/<your-username>.git
-cd <your-username>
-```
-(No terminal? Use **GitHub Desktop** to clone, then open the folder.)
-
-**3. Run the setup script.**
-```bash
-./setup.sh <your-username>
-```
-It turns `PROFILE_TEMPLATE.md` into your `README.md`, replaces the `__USERNAME__` placeholder, generates skill icons, and checks for leftovers.
-
-**4. Commit and push.**
-```bash
-git add -A && git commit -m "set up my profile" && git push
+```yaml
+name:        RyoTACHIWANA
+location:    TODO (e.g. Japan)
+role:        TODO (e.g. Student Developer)
+status:      TODO (e.g. Open to Work)
 ```
 
-**5. Turn on the automation.**
-Open the **Actions** tab, enable workflows if asked, then **Run workflow** on each once
-(`Generate Stats`, `Generate Snake Animation`, `Generate Metrics`, `Generate 3D Contribution City`).
-Reload your profile after a minute.
+- **Interests**: TODO (e.g. Web frontend / ...)
+- **Currently working on**: TODO
+- **Strengths**: TODO
 
-**6. Make it yours.**
-Edit the `TODO` parts in `README.md`: **About Me**, **Featured Projects** (set `__REPO__` to your repos), and **Skills** (see Customizing).
-Optional: on your contribution graph, open **Contribution settings** and enable **Private contributions** to include private activity in the numbers (contents stay private).
+<br>
 
-## Customizing
+<!-- ============================================================= -->
+<!-- 2. Featured Projects                                          -->
+<!--   TODO: add pin cards for your repos. Uncomment the example   -->
+<!--   below and replace __REPO__ with your repository name.       -->
+<!-- ============================================================= -->
 
-- **Skills**: edit the `CATEGORIES` list in `scripts/fetch-skills.sh`, then run `bash scripts/fetch-skills.sh` again. Icon names: <https://skillicons.dev> (all lowercase).
-- **Header tagline**: edit the text in `assets/header.svg`.
-- **Accent color**: `#6f8ff7` is used throughout — search & replace to change it.
+## Featured Projects
 
-## How it works
+<!--
+  Example (uncomment and set __REPO__ to your repo name):
 
-| Element | Source | Updates |
-|---------|--------|---------|
-| Header / Footer | `assets/header.svg` `footer.svg` | static (name set by setup.sh) |
-| Trophies / Streak / Stats / Top languages | `scripts/generate-*.mjs` -> `assets/*.svg` | every 6h |
-| Snake | Platane/snk -> `output` branch | daily |
-| Metrics | lowlighter/metrics -> `metrics.svg` | daily |
-| Contribution City (3D) | github-profile-3d-contrib | daily |
-| Skill icons | `scripts/fetch-skills.sh` -> `assets/skills-*.svg` | manual |
+<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
 
-Workflows detect the repository owner with `${{ github.repository_owner }}`, so they target **your** data automatically. Image URLs carry a `?v=` value that the workflow bumps on each update, so the display never gets stuck on GitHub's image cache.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=RyoTACHIWANA&repo=__REPO__&hide_border=true&theme=tokyonight">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=RyoTACHIWANA&repo=__REPO__&hide_border=true&theme=default">
+  <img alt="__REPO__" src="https://github-readme-stats.vercel.app/api/pin/?username=RyoTACHIWANA&repo=__REPO__&hide_border=true">
+</picture>
 
----
+**__REPO__** — TODO: one-line description.
 
-# 日本語
+</td>
+</tr>
+</table>
+</div>
+-->
 
-## このキットでできること
+<sub>TODO: showcase your repositories here (see the commented example above).</sub>
 
-- トロフィー・GitHub統計・連続記録・使用言語カード — **実データから自前生成（外部サービス非依存）**
-- コントリビューションの**スネーク**アニメと**メトリクス**ダッシュボード
-- コミット履歴から育つ**3Dの街**（操作できるWebGL版へのリンク付き）
-- アニメーションするヘッダーバナーと使用技術アイコン
-- GitHub Actions で**自動更新**（トロフィー/統計は6時間ごと、他は毎日）
-- 標準トークンで動作 — **個人アクセストークン（PAT）は不要**
+<br>
 
-## 使い方
+<!-- ============================================================= -->
+<!-- 3. Skills  (generated by fetch-skills.sh; edit that script    -->
+<!--    and re-run to change the icons)                            -->
+<!-- ============================================================= -->
 
-> 必要なもの: GitHubアカウントと、`git` が使えるターミナル（または GitHub Desktop）。
+## Skills & Tools
 
-**1. プロフィール用リポジトリを作る。**
-**自分のユーザー名と完全に同じ名前**の **public** リポジトリを作ります（例: ユーザー名 `octocat` → リポジトリ名も `octocat`）。
-作成画面で「秘密を見つけました！」のような表示が出れば、それが特別な「プロフィール用リポジトリ」です。
-一番簡単なのは、このページ上部の緑の **「Use this template」** ボタン → リポジトリ名を自分のユーザー名と同じにする方法です。
+<div align="center">
 
-**2. ファイルを自分のPCに取得する。**
-```bash
-git clone https://github.com/<ユーザー名>/<ユーザー名>.git
-cd <ユーザー名>
-```
-（ターミナルが苦手なら **GitHub Desktop** で clone してフォルダを開いてもOK）
+<h4>Languages</h4>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/skills-languages-dark.svg">
+  <img src="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/skills-languages-light.svg" alt="Languages">
+</picture>
 
-**3. セットアップスクリプトを実行する。**
-```bash
-./setup.sh <ユーザー名>
-```
-`PROFILE_TEMPLATE.md` が `README.md` になり、`__USERNAME__` が一括置換され、使用技術アイコンも生成され、置換漏れもチェックされます。
+<h4>Frameworks &amp; Libraries</h4>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/skills-frameworks-dark.svg">
+  <img src="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/skills-frameworks-light.svg" alt="Frameworks">
+</picture>
 
-**4. コミットして push する。**
-```bash
-git add -A && git commit -m "set up my profile" && git push
-```
+<h4>Tools</h4>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/skills-tools-dark.svg">
+  <img src="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/skills-tools-light.svg" alt="Tools">
+</picture>
 
-**5. 自動更新をオンにする。**
-**Actions** タブを開き、必要なら「ワークフローを有効化」。各ワークフロー
-（`Generate Stats` / `Generate Snake Animation` / `Generate Metrics` / `Generate 3D Contribution City`）を **「Run workflow」** で1回ずつ実行（以降は自動）。
-1分ほど待ってプロフィールを再読み込みするとカードが表示されます。
+</div>
 
-**6. 自分の内容に編集する。**
-`README.md` の `TODO` を埋めます: **About Me**、**Featured Projects**（`__REPO__` を自分のリポジトリ名に）、**Skills**（下のカスタマイズ参照）。
-任意: コントリビューショングラフの **Contribution settings** → **Private contributions** をONにすると非公開リポの活動も件数に反映されます（中身は非公開のまま）。
+<br>
 
-## カスタマイズ
+<!-- ============================================================= -->
+<!-- 4. GitHub Stats (self-generated, auto-updated every 6h)       -->
+<!-- ============================================================= -->
 
-- **使用技術（Skills）**: `scripts/fetch-skills.sh` の `CATEGORIES` を編集して `bash scripts/fetch-skills.sh` を再実行。アイコン名一覧: <https://skillicons.dev>（すべて小文字）。
-- **ヘッダーの肩書き**: `assets/header.svg` のテキストを編集。
-- **アクセントカラー（配色）**: 全体で `#6f8ff7` を使用 — 置換すれば色を変えられます。
+## GitHub Stats
 
-## 仕組み
+<div align="center">
 
-| 表示 | 生成元 | 更新 |
-|------|--------|------|
-| ヘッダー / フッター | `assets/header.svg` `footer.svg` | 固定（名前は setup.sh が設定） |
-| トロフィー / 連続記録 / 統計 / 使用言語 | `scripts/generate-*.mjs` → `assets/*.svg` | 6時間ごと |
-| スネーク | Platane/snk → `output` ブランチ | 毎日 |
-| メトリクス | lowlighter/metrics → `metrics.svg` | 毎日 |
-| Contribution City（3D） | github-profile-3d-contrib | 毎日 |
-| 使用技術アイコン | `scripts/fetch-skills.sh` → `assets/skills-*.svg` | 手動 |
+<img height="165" alt="GitHub stats" src="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/stats.svg?v=1">
+&nbsp;
+<img height="165" alt="top languages" src="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/top-langs.svg?v=1">
 
-ワークフローは `${{ github.repository_owner }}` でリポジトリの持ち主を自動取得するため、**自分の**データが対象になります。画像URLの `?v=` はデータ更新時にワークフローが自動で付け替えるので、表示がGitHubの画像キャッシュで古いまま固まりません。
+![streak](https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/streak.svg?v=1)
 
----
+</div>
 
-## Credits / License
+<br>
 
-- Trophies / streak / stats / top-languages cards are this kit's own generators (no external
-  service). The rank algorithm mirrors [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) (MIT).
-- 3D SVG: [github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib) (MIT)
-- Interactive 3D city (link target): [honzaap/GithubCity](https://github.com/honzaap/GithubCity) (Apache-2.0)
-- Snake: [Platane/snk](https://github.com/Platane/snk) / Metrics: [lowlighter/metrics](https://github.com/lowlighter/metrics)
-- Icons: [skillicons.dev](https://skillicons.dev)
+<!-- ============================================================= -->
+<!-- 5. Contribution City (3D city from your commits, daily)       -->
+<!--   Click it to open the interactive 3D version (honzaap)       -->
+<!-- ============================================================= -->
 
-MIT licensed — see [LICENSE](LICENSE). Made by [uzuchan](https://github.com/uzuchan).
+## Contribution City
+
+<div align="center">
+
+[![contribution city](https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/profile-3d-contrib/profile-night-view.svg)](https://honzaap.github.io/GithubCity/?name=RyoTACHIWANA)
+
+<sub>3D SVG: <a href="https://github.com/yoshi389111/github-profile-3d-contrib">github-profile-3d-contrib</a> / interactive city: <a href="https://github.com/honzaap/GithubCity">honzaap/GithubCity</a></sub>
+
+</div>
+
+<br>
+
+<!-- ============================================================= -->
+<!-- 6. More Stats (collapsible: Activity / Snake / Metrics)       -->
+<!-- ============================================================= -->
+
+## More Stats
+
+<details>
+<summary>Show detailed GitHub activity</summary>
+
+<br>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=RyoTACHIWANA&bg_color=1a1b27&color=6f8ff7&line=6f8ff7&point=ffffff&area=true&hide_border=true">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=RyoTACHIWANA&bg_color=ffffff&color=6f8ff7&line=6f8ff7&point=1a1b27&area=true&hide_border=true">
+  <img alt="activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=RyoTACHIWANA&area=true&hide_border=true">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/output/github-contribution-grid-snake.svg">
+  <img alt="snake animation" src="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/output/github-contribution-grid-snake.svg">
+</picture>
+
+<img alt="metrics" src="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/metrics.svg">
+
+</div>
+
+</details>
+
+<br>
+
+<!-- ============ Footer banner (self-hosted SVG) ============ -->
+<div align="center">
+
+![footer](https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/footer.svg)
+
+<sub>Thanks for visiting!</sub>
+
+</div>
