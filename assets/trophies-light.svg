@@ -12,15 +12,15 @@
           font-family="Segoe UI, Helvetica, Arial, sans-serif"
           font-size="13.5" font-weight="700" fill="#434d58">Stars</text>
     <circle cx="60" cy="70" r="26" fill="none" stroke="#dfe2e5" stroke-width="6"/>
-    <circle cx="60" cy="70" r="26" fill="none" stroke="#8b949e" stroke-width="6"
-            stroke-linecap="round" stroke-dasharray="0.00 163.36"
+    <circle cx="60" cy="70" r="26" fill="none" stroke="#a371f7" stroke-width="6"
+            stroke-linecap="round" stroke-dasharray="81.68 163.36"
             transform="rotate(-90 60 70)"/>
     <text x="60" y="70" text-anchor="middle" dominant-baseline="central"
           font-family="Segoe UI, Helvetica, Arial, sans-serif"
-          font-size="27" font-weight="800" fill="#8b949e">C</text>
+          font-size="27" font-weight="800" fill="#a371f7">A</text>
     <text x="60" y="119" text-anchor="middle"
           font-family="Segoe UI, Helvetica, Arial, sans-serif"
-          font-size="14" font-weight="700" fill="#6f8ff7">0</text>
+          font-size="14" font-weight="700" fill="#6f8ff7">4</text>
   </g>
   <g transform="translate(130,0)">
     <rect x="1.5" y="1.5" width="117" height="129" rx="8"
