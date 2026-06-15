@@ -1,0 +1,43 @@
+# コントリビューション（草）をヘビが食べていくアニメーションSVGを生成するワークフロー
+# 生成されたSVGは output ブランチに公開され、README から URL で参照する
+name: Generate Snake Animation
+
+on:
+  # 1日1回（毎日0:00 UTC）自動で再生成する。草が増えても表示が最新に保たれる
+  schedule:
+    - cron: "0 0 * * *"
+  # Actions タブの画面から手動で実行できるようにする（初回はこれで動かす）
+  workflow_dispatch:
+  # main ブランチへ push されたタイミングでも再生成する
+  push:
+    branches:
+      - main
+
+# output ブランチへコミット（公開）するために書き込み権限を明示する
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      # ヘビアニメSVGを生成する。github_user_name で対象ユーザーを指定する
+      # outputs に書いたパスのSVGが dist ディレクトリに出力される
+      - name: Generate snake SVG
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # README が参照するファイル名なので変更しないこと
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # 生成した dist ディレクトリの中身を output ブランチへ公開する
+      # README からは output ブランチの raw URL を参照する
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

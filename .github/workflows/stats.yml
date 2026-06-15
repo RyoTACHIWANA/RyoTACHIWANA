@@ -1,0 +1,48 @@
+name: Generate Stats
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Generate trophies SVG
+        run: node scripts/generate-trophies.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+      - name: Generate streak SVG
+        run: node scripts/generate-streak.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+      - name: Generate stats & top-langs SVG
+        run: node scripts/generate-stats.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm -q --ignore-unmatch assets/trophies.svg
+          git add assets/trophies-light.svg assets/trophies-dark.svg assets/streak.svg assets/stats.svg assets/top-langs.svg
+          if ! git diff --cached --quiet; then
+            V=$(date +%s)
+            for f in streak stats top-langs trophies-light trophies-dark; do
+              perl -pi -e "s{(assets/$f\.svg)(\?v=\d+)?}{\$1?v=$V}g" README.md
+            done
+            git add README.md
+            git commit -m "Update stats - [Skip GitHub Action]"
+            git push
+          fi

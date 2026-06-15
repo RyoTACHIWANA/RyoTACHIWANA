@@ -1,0 +1,54 @@
+# GitHubの活動をまとめたダッシュボード画像（metrics.svg）を生成するワークフロー
+# 生成した metrics.svg はリポジトリ直下にコミットされ、README から参照する
+name: Generate Metrics
+
+on:
+  # 1日1回（毎日0:00 UTC）自動で更新する
+  schedule:
+    - cron: "0 0 * * *"
+  # Actions タブから手動実行できるようにする（初回はこれで動かす）
+  workflow_dispatch:
+
+# metrics.svg をリポジトリへコミットするために書き込み権限を明示する
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate metrics image
+        uses: lowlighter/metrics@latest
+        with:
+          # 出力ファイル名。README からはこの metrics.svg を参照する
+          filename: metrics.svg
+          # 特別なPATは不要。GitHub が自動発行する標準トークンを使う基本構成
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # 対象ユーザー名
+          user: ${{ github.repository_owner }}
+
+          # base に表示する基本セクション（PAT不要のシンプル構成）
+          # header: 名前とアバター / activity: 直近の活動 / community: コミュニティ活動
+          # repositories: リポジトリ概要 / metadata: メタ情報
+          base: header, activity, community, repositories, metadata
+
+          # --- ここから下は凝ったプラグインの例（必要に応じて有効化）---
+          # 下記のプラグインは個人用アクセストークン（PAT）が必要になる場合が多い。
+          # 使う場合は GitHub の Settings > Developer settings で PAT を発行し、
+          # リポジトリの Secrets に METRICS_TOKEN などの名前で登録して
+          # token を ${{ secrets.METRICS_TOKEN }} に差し替えること。
+          #
+          # 言語の使用割合を表示する（PATが必要）
+          # plugin_languages: yes
+          # plugin_languages_limit: 8
+          #
+          # よく使う時間帯（いつ活動しているか）を表示する（PATが必要）
+          # plugin_habits: yes
+          # plugin_habits_from: 200
+          #
+          # 直近のイントロ（自己紹介）を表示する（PATが必要）
+          # plugin_introduction: yes
+          #
+          # isocalendar（1年分の草を等角投影で表示）（PATが必要）
+          # plugin_isocalendar: yes
+          # plugin_isocalendar_duration: full-year

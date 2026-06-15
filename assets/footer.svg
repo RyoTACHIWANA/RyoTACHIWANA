@@ -1,0 +1,19 @@
+<svg width="100%" viewBox="0 0 1200 110" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="footer wave">
+  <defs>
+    <linearGradient id="gf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6f8ff7">
+        <animate attributeName="stop-color" values="#6f8ff7;#9b7bf7;#5fb8f0;#6f8ff7" dur="14s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#8a6ff7">
+        <animate attributeName="stop-color" values="#8a6ff7;#5fb8f0;#9b7bf7;#8a6ff7" dur="14s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <path id="wavef" d="M0,40 C75,10 225,70 300,40 C375,10 525,70 600,40 C675,10 825,70 900,40 C975,10 1125,70 1200,40 C1275,10 1425,70 1500,40 C1575,10 1725,70 1800,40 L1800,110 L0,110 Z"/>
+  </defs>
+  <use href="#wavef" xlink:href="#wavef" fill="url(#gf)" opacity="0.5" transform="translate(0,-12)">
+    <animateTransform attributeName="transform" type="translate" values="0 -12;-600 -12" dur="9s" begin="-4.5s" repeatCount="indefinite"/>
+  </use>
+  <use href="#wavef" xlink:href="#wavef" fill="url(#gf)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-600 0" dur="14s" repeatCount="indefinite"/>
+  </use>
+</svg>

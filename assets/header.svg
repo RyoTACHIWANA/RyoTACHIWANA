@@ -1,0 +1,27 @@
+<svg width="100%" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Welcome to __USERNAME__'s Profile">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6f8ff7">
+        <animate attributeName="stop-color" values="#6f8ff7;#9b7bf7;#5fb8f0;#6f8ff7" dur="14s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#8a6ff7">
+        <animate attributeName="stop-color" values="#8a6ff7;#5fb8f0;#9b7bf7;#8a6ff7" dur="14s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <path id="wave" d="M0,170 C75,140 225,200 300,170 C375,140 525,200 600,170 C675,140 825,200 900,170 C975,140 1125,200 1200,170 C1275,140 1425,200 1500,170 C1575,140 1725,200 1800,170 L1800,0 L0,0 Z"/>
+  </defs>
+  <use href="#wave" xlink:href="#wave" fill="url(#g)" opacity="0.5" transform="translate(0,14)">
+    <animateTransform attributeName="transform" type="translate" values="0 14;-600 14" dur="9s" begin="-4.5s" repeatCount="indefinite"/>
+  </use>
+  <use href="#wave" xlink:href="#wave" fill="url(#g)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-600 0" dur="14s" repeatCount="indefinite"/>
+  </use>
+  <text x="600" y="92" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff" opacity="0">
+    Welcome to __USERNAME__&apos;s Profile
+    <animate attributeName="opacity" from="0" to="1" dur="1.2s" fill="freeze"/>
+  </text>
+  <text x="600" y="130" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" fill="#ffffff" opacity="0">
+    Welcome to my GitHub
+    <animate attributeName="opacity" from="0" to="0.9" dur="1.2s" begin="0.4s" fill="freeze"/>
+  </text>
+</svg>
