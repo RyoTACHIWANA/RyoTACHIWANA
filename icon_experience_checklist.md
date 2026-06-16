@@ -1,0 +1,253 @@
+# 技術・アプリ・サービス アイコン使用経験チェックリスト
+
+画像内の並び順に合わせています．`[ ]`を`[x]`へ変更すると，使用経験ありとして記録できます．
+
+> 判定の目安：インストールしただけではなく，授業，制作，研究，開発，運用などで実際に操作したものへチェックを入れると分かりやすいです．
+
+- [ ] **ableton**｜音楽制作｜DAW「Ableton Live」．作曲，録音，ライブ演奏，音声編集に使う．
+- [ ] **activitypub**｜Web標準｜分散型SNS同士を連携させるための通信プロトコル．Mastodonなどで使われる．
+- [ ] **actix**｜Webフレームワーク｜Rust製の高速なWebフレームワーク．APIやWebサーバー開発向け．
+- [ ] **adonis**｜Webフレームワーク｜Node.js／TypeScript向けのフルスタックWebフレームワーク．
+- [ ] **ae**｜映像制作｜Adobe After Effects．モーショングラフィックス，合成，映像エフェクト制作に使う．
+- [ ] **aiscript**｜プログラミング言語｜Misskeyのプラグインやウィジェットで使われるスクリプト言語．
+- [ ] **alpinejs**｜JavaScript｜HTMLに軽量な対話機能を加えるJavaScriptフレームワーク．
+- [ ] **anaconda**｜開発環境｜PythonやRのデータ分析環境とパッケージをまとめて管理するディストリビューション．
+- [ ] **androidstudio**｜IDE｜Androidアプリ開発用の公式統合開発環境．
+- [ ] **angular**｜Webフレームワーク｜Googleが開発するTypeScriptベースのフロントエンドフレームワーク．
+- [ ] **ansible**｜インフラ｜サーバー設定やデプロイを自動化する構成管理ツール．
+- [ ] **apollo**｜GraphQL｜GraphQL APIのクライアント／サーバー開発を支援するツール群．
+- [x] **apple**｜企業・OS｜Appleの製品・プラットフォーム全般を示すアイコン．macOSやiOS関連で使われる．
+- [ ] **appwrite**｜BaaS｜認証，データベース，ストレージなどを提供するオープンソースBaaS．
+- [ ] **arch**｜OS｜軽量でカスタマイズ性の高いLinuxディストリビューション「Arch Linux」．
+- [ ] **arduino**｜組込み｜マイコンボードと開発環境．電子工作やIoTの試作に使う．
+- [ ] **astro**｜Webフレームワーク｜静的サイトやコンテンツ中心のWebサイト向けフレームワーク．
+- [ ] **atom**｜エディタ｜GitHubが開発していたテキストエディタ．現在は開発終了．
+- [ ] **au**｜音声制作｜Adobe Audition．録音，ノイズ除去，ミキシングなどの音声編集ソフト．
+- [ ] **autocad**｜CAD｜Autodeskの2D／3D CADソフト．設計図や製図に使う．
+- [x] **aws**｜クラウド｜Amazon Web Services．サーバー，DB，AIなどを提供する総合クラウド．
+- [ ] **azul**｜Java｜JavaランタイムやOpenJDKディストリビューションを提供するAzul Systems．
+- [ ] **azure**｜クラウド｜Microsoft Azure．サーバー，DB，AIなどを提供する総合クラウド．
+- [ ] **babel**｜JavaScript｜新しいJavaScript構文を古い実行環境向けに変換するトランスパイラ．
+- [x] **bash**｜シェル｜Unix系OSで広く使われるコマンドラインシェル／スクリプト言語．
+- [ ] **bevy**｜ゲームエンジン｜Rust製のデータ指向ゲームエンジン．
+- [ ] **bitbucket**｜開発サービス｜GitリポジトリのホスティングとCI/CDを提供するAtlassianのサービス．
+- [ ] **blender**｜3D制作｜無料の3DCG制作ソフト．モデリング，アニメーション，レンダリングに対応．
+- [ ] **bootstrap**｜CSS｜レスポンシブなWeb UIを作るためのCSSフレームワーク．
+- [ ] **bsd**｜OS｜Unix系OSファミリー．FreeBSD，OpenBSD，NetBSDなどを含む．
+- [ ] **bun**｜JavaScript｜高速なJavaScript／TypeScriptランタイム，パッケージマネージャー，ビルドツール．
+- [x] **c**｜プログラミング言語｜OS，組込み，低レイヤー開発で広く使われる汎用言語．
+- [x] **cs**｜プログラミング言語｜C#．Microsoft系開発やUnity，Web，デスクトップアプリで使われる．
+- [x] **cpp**｜プログラミング言語｜C++．高性能アプリ，ゲーム，組込み，システム開発に使われる．
+- [ ] **crystal**｜プログラミング言語｜Ruby風の構文とコンパイル言語の性能を持つ言語．
+- [ ] **cassandra**｜データベース｜大規模分散処理向けのNoSQLデータベース．
+- [ ] **clion**｜IDE｜JetBrains製のC／C++向け統合開発環境．
+- [ ] **clojure**｜プログラミング言語｜JVM上で動作するLisp系関数型言語．
+- [ ] **cloudflare**｜クラウド・CDN｜CDN，DNS，セキュリティ，エッジ実行環境などを提供するサービス．
+- [ ] **cmake**｜ビルドツール｜C／C++などのビルド設定を生成・管理するツール．
+- [ ] **codepen**｜Webサービス｜HTML，CSS，JavaScriptをブラウザ上で試作・共有できるサービス．
+- [ ] **coffeescript**｜プログラミング言語｜JavaScriptへ変換して使う簡潔な構文の言語．
+- [x] **css**｜Web技術｜Webページの見た目やレイアウトを指定するスタイルシート言語．
+- [ ] **cypress**｜テスト｜WebアプリのE2Eテストやコンポーネントテストを行うツール．
+- [ ] **d3**｜可視化｜データをWeb上で柔軟に可視化するJavaScriptライブラリ「D3.js」．
+- [ ] **dart**｜プログラミング言語｜Google製の言語．主にFlutterアプリ開発で使われる．
+- [ ] **debian**｜OS｜安定性を重視したLinuxディストリビューション．Ubuntuの基盤でもある．
+- [ ] **deno**｜JavaScript｜セキュア設計のJavaScript／TypeScriptランタイム．
+- [ ] **devto**｜コミュニティ｜開発者向け記事投稿コミュニティ「DEV Community」．
+- [x] **discord**｜コミュニケーション｜音声，チャット，コミュニティ運営に使われるサービス．
+- [ ] **bots**｜Discord｜Discord Botなど，自動応答やサーバー管理を行うボットを示すアイコン．
+- [ ] **discordjs**｜JavaScript｜Discord BotをNode.jsで開発するためのライブラリ．
+- [ ] **django**｜Webフレームワーク｜Python製のフルスタックWebフレームワーク．
+- [ ] **docker**｜コンテナ｜アプリと依存環境をコンテナとして配布・実行する基盤．
+- [ ] **dotnet**｜開発基盤｜Microsoftのクロスプラットフォーム開発基盤．C#などで利用する．
+- [ ] **dynamodb**｜データベース｜AWSが提供するフルマネージドNoSQLデータベース．
+- [x] **eclipse**｜IDE｜Javaを中心に使われるオープンソース統合開発環境．
+- [ ] **elasticsearch**｜検索基盤｜全文検索，ログ分析，ベクトル検索に使われる分散検索エンジン．
+- [ ] **electron**｜デスクトップ｜Web技術でWindows／macOS／Linux向けデスクトップアプリを作る基盤．
+- [ ] **elixir**｜プログラミング言語｜並行処理と耐障害性に強いBEAM上の関数型言語．
+- [ ] **elysia**｜Webフレームワーク｜Bun向けに設計された高速なTypeScript Webフレームワーク．
+- [x] **emacs**｜エディタ｜高い拡張性を持つ歴史的なテキストエディタ．
+- [ ] **ember**｜Webフレームワーク｜規約重視のJavaScriptフロントエンドフレームワーク．
+- [ ] **emotion**｜CSS-in-JS｜ReactなどでJavaScript内にCSSを書くためのライブラリ．
+- [ ] **express**｜Webフレームワーク｜Node.js向けの軽量なWeb／APIフレームワーク．
+- [ ] **fastapi**｜Webフレームワーク｜Python製の高速なAPI開発フレームワーク．型ヒントを活用する．
+- [ ] **fediverse**｜分散SNS｜MastodonやMisskeyなど，相互接続された分散型SNS群の総称．
+- [ ] **figma**｜デザイン｜UI／UXデザイン，プロトタイピング，共同編集ツール．
+- [ ] **firebase**｜BaaS｜Googleのアプリ開発基盤．認証，DB，ホスティングなどを提供．
+- [ ] **flask**｜Webフレームワーク｜Python製の軽量なWebフレームワーク．
+- [ ] **flutter**｜アプリ開発｜単一コードでモバイル，Web，デスクトップアプリを作るGoogle製UI SDK．
+- [ ] **forth**｜プログラミング言語｜スタック指向で小型・低レイヤー用途に強い言語．
+- [ ] **fortran**｜プログラミング言語｜科学技術計算や数値計算で長く使われている言語．
+- [ ] **gamemakerstudio**｜ゲームエンジン｜2Dゲーム開発を中心とする統合ゲーム制作環境．
+- [ ] **gatsby**｜Webフレームワーク｜Reactベースの静的サイトジェネレーター／Webフレームワーク．
+- [ ] **gcp**｜クラウド｜Google Cloud．サーバー，DB，AIなどを提供する総合クラウド．
+- [x] **git**｜バージョン管理｜ソースコードの変更履歴を管理する分散型バージョン管理システム．
+- [x] **github**｜開発サービス｜Gitリポジトリの公開，共同開発，Issue管理などを行うサービス．
+- [ ] **githubactions**｜CI/CD｜GitHub上でテスト，ビルド，デプロイを自動化する機能．
+- [ ] **gitlab**｜開発サービス｜Gitホスティング，Issue，CI/CDを統合したDevOpsプラットフォーム．
+- [x] **gmail**｜メール｜Googleのメールサービス．
+- [ ] **gherkin**｜テスト｜「Given／When／Then」で振る舞いを記述するBDD用言語．
+- [ ] **go**｜プログラミング言語｜Google製の静的型付け言語．サーバー，CLI，クラウド基盤で多用される．
+- [ ] **gradle**｜ビルドツール｜Java／Kotlin／Androidなどのビルドと依存関係管理を行う．
+- [ ] **godot**｜ゲームエンジン｜オープンソースの2D／3Dゲームエンジン．
+- [ ] **grafana**｜監視｜メトリクスやログをダッシュボードで可視化する監視ツール．
+- [ ] **graphql**｜API｜クライアントが必要なデータだけを問い合わせるAPIクエリ言語・仕様．
+- [ ] **gtk**｜GUI｜Linuxを中心に使われるGUIアプリ開発用ツールキット．
+- [ ] **gulp**｜ビルドツール｜JavaScriptでフロントエンドの処理を自動化するタスクランナー．
+- [ ] **haskell**｜プログラミング言語｜純粋関数型，遅延評価，強い型システムを特徴とする言語．
+- [ ] **haxe**｜プログラミング言語｜複数言語・複数プラットフォームへ変換できるクロスプラットフォーム言語．
+- [ ] **haxeflixel**｜ゲームフレームワーク｜Haxe製の2Dゲームフレームワーク．
+- [ ] **heroku**｜PaaS｜Webアプリを簡単に公開・運用できるクラウドPaaS．
+- [ ] **hibernate**｜ORM｜JavaでオブジェクトとRDBを対応付けるORMフレームワーク．
+- [x] **html**｜Web技術｜Webページの構造を記述するマークアップ言語．
+- [ ] **htmx**｜Webライブラリ｜HTML属性からHTTP通信や部分更新を扱える軽量ライブラリ．
+- [ ] **idea**｜IDE｜IntelliJ IDEA．主にJava／Kotlin向けのJetBrains製IDE．
+- [ ] **ai**｜デザイン｜Adobe Illustrator．ベクター画像，ロゴ，イラスト制作ソフト．
+- [x] **instagram**｜SNS｜写真や動画を中心とするSNS．
+- [ ] **ipfs**｜分散ストレージ｜コンテンツアドレス方式を用いるP2P分散ファイルシステム．
+- [x] **java**｜プログラミング言語｜JVM上で動く汎用言語．業務システム，Android，サーバー開発で利用．
+- [x] **js**｜プログラミング言語｜JavaScript．Webブラウザやサーバーで動く主要言語．
+- [ ] **jenkins**｜CI/CD｜ビルド，テスト，デプロイを自動化するCIサーバー．
+- [ ] **jest**｜テスト｜JavaScript／TypeScript向けテストフレームワーク．
+- [ ] **jquery**｜JavaScript｜DOM操作やAjaxを簡単にする歴史的なJavaScriptライブラリ．
+- [ ] **kafka**｜メッセージング｜大規模なイベントストリームを処理する分散メッセージ基盤．
+- [ ] **kali**｜OS｜セキュリティ診断ツールを多数搭載したLinuxディストリビューション．
+- [x] **kotlin**｜プログラミング言語｜JVM上で動く簡潔な言語．Android公式開発言語の一つ．
+- [ ] **ktor**｜Webフレームワーク｜Kotlin製の非同期Webサーバー／クライアントフレームワーク．
+- [ ] **kubernetes**｜コンテナ｜多数のコンテナを自動配置・拡張・運用するオーケストレーション基盤．
+- [ ] **laravel**｜Webフレームワーク｜PHP製のフルスタックWebフレームワーク．
+- [x] **latex**｜文書作成｜数式や論文の組版に強い文書作成システム．
+- [ ] **less**｜CSS｜CSSを拡張し，変数やネストを使えるプリプロセッサ．
+- [x] **linkedin**｜SNS｜職歴，採用，ビジネス交流に特化したSNS．
+- [x] **linux**｜OS｜オープンソースのUnix系OSカーネルおよびその環境の総称．
+- [ ] **lit**｜Webコンポーネント｜軽量なWeb Components開発ライブラリ．
+- [ ] **lua**｜プログラミング言語｜組込みやゲームの拡張スクリプトでよく使われる軽量言語．
+- [x] **md**｜文書形式｜Markdown．記号で見出しや箇条書きを書ける軽量マークアップ言語．
+- [ ] **mastodon**｜SNS｜ActivityPub対応の分散型SNSソフトウェア．
+- [ ] **materialui**｜UIライブラリ｜GoogleのMaterial Designに基づくReact UIコンポーネント集．
+- [x] **matlab**｜数値計算｜行列計算，信号処理，シミュレーションに使う数値計算環境．
+- [ ] **maven**｜ビルドツール｜Javaプロジェクトのビルドと依存関係管理を行うツール．
+- [ ] **mint**｜OS｜初心者にも扱いやすいUbuntu系Linuxディストリビューション「Linux Mint」．
+- [ ] **misskey**｜SNS｜日本発の分散型SNSソフトウェア．ActivityPubに対応．
+- [ ] **mongodb**｜データベース｜JSON風ドキュメントを保存するNoSQLデータベース．
+- [x] **mysql**｜データベース｜広く使われるオープンソースのリレーショナルデータベース．
+- [ ] **neovim**｜エディタ｜Vimを現代化し，拡張性を高めたテキストエディタ．
+- [ ] **nestjs**｜Webフレームワーク｜TypeScript向けの構造化されたNode.jsサーバーフレームワーク．
+- [ ] **netlify**｜ホスティング｜静的サイトやフロントエンドをCI/CD付きで公開できるサービス．
+- [ ] **nextjs**｜Webフレームワーク｜ReactベースのフルスタックWebフレームワーク．
+- [x] **nginx**｜Webサーバー｜高性能なWebサーバー，リバースプロキシ，ロードバランサー．
+- [ ] **nim**｜プログラミング言語｜高速性と簡潔な構文を両立するコンパイル言語．
+- [ ] **nix**｜パッケージ管理｜再現可能な環境構築を重視するパッケージマネージャー／OS．
+- [x] **nodejs**｜JavaScript｜JavaScriptをサーバーやCLIで実行するランタイム．
+- [x] **notion**｜ノート｜文書，DB，タスク管理を統合したワークスペース．
+- [x] **npm**｜パッケージ管理｜Node.jsの標準的なパッケージマネージャー／レジストリ．
+- [ ] **nuxtjs**｜Webフレームワーク｜VueベースのフルスタックWebフレームワーク．
+- [x] **obsidian**｜ノート｜Markdownファイルをローカル保存するリンク型ノートアプリ．
+- [ ] **ocaml**｜プログラミング言語｜型推論と関数型・命令型を組み合わせた言語．
+- [ ] **octave**｜数値計算｜MATLAB互換性を意識したオープンソース数値計算環境．
+- [x] **opencv**｜画像処理｜画像認識，映像処理，コンピュータビジョン向けライブラリ．
+- [ ] **openshift**｜クラウド基盤｜Red Hatが提供するKubernetesベースの企業向けPaaS．
+- [ ] **openstack**｜クラウド基盤｜プライベートクラウドを構築するオープンソース基盤．
+- [ ] **p5js**｜クリエイティブコーディング｜ブラウザ上でアートやインタラクションを作るJavaScriptライブラリ．
+- [ ] **perl**｜プログラミング言語｜文字列処理やシステム管理で使われてきたスクリプト言語．
+- [ ] **ps**｜画像制作｜Adobe Photoshop．画像編集，写真加工，デジタルペイント用ソフト．
+- [x] **php**｜プログラミング言語｜Webサーバー側の開発で広く使われる言語．
+- [ ] **phpstorm**｜IDE｜JetBrains製のPHP向け統合開発環境．
+- [ ] **pinia**｜状態管理｜Vue向けの公式に推奨される状態管理ライブラリ．
+- [ ] **pkl**｜設定言語｜Appleが公開した，構造化された設定を記述・生成する言語．
+- [ ] **plan9**｜OS｜Bell Labsで開発された分散処理志向の実験的OS．
+- [ ] **planetscale**｜データベース｜MySQL互換のサーバーレス分散データベースサービス．
+- [ ] **pnpm**｜パッケージ管理｜省ディスクで高速なNode.js向けパッケージマネージャー．
+- [ ] **postgres**｜データベース｜高機能なオープンソースRDB「PostgreSQL」．
+- [ ] **postman**｜API開発｜APIの送信，テスト，文書化，共有を行う開発ツール．
+- [x] **powershell**｜シェル｜Microsoft製のコマンドラインシェル／自動化言語．
+- [ ] **pr**｜映像制作｜Adobe Premiere Pro．動画編集，音声調整，映像制作ソフト．
+- [ ] **prisma**｜ORM｜Node.js／TypeScript向けの型安全なORMとDBツール群．
+- [ ] **processing**｜クリエイティブコーディング｜ビジュアル表現や教育向けのプログラミング環境．
+- [ ] **prometheus**｜監視｜時系列メトリクスを収集・照会する監視システム．
+- [ ] **pug**｜テンプレート｜Node.jsで使われる簡潔なHTMLテンプレートエンジン．
+- [ ] **pycharm**｜IDE｜JetBrains製のPython向け統合開発環境．
+- [x] **py**｜プログラミング言語｜Python．AI，データ分析，自動化，Web開発などで広く使われる．
+- [x] **pytorch**｜機械学習｜深層学習モデルの構築・学習に使うPythonライブラリ．
+- [ ] **qt**｜GUI｜C++を中心にクロスプラットフォームGUIアプリを作るフレームワーク．
+- [x] **r**｜プログラミング言語｜統計解析，データ分析，可視化に強い言語．
+- [ ] **rabbitmq**｜メッセージング｜アプリ間でメッセージを非同期に配送するメッセージブローカー．
+- [ ] **rails**｜Webフレームワーク｜Ruby on Rails．規約重視のフルスタックWebフレームワーク．
+- [ ] **raspberrypi**｜小型コンピュータ｜教育，電子工作，IoT，サーバー用途に使われる小型PC．
+- [ ] **react**｜UIライブラリ｜コンポーネント指向でWeb UIを構築するJavaScriptライブラリ．
+- [ ] **reactivex**｜リアクティブ｜非同期イベントやデータストリームを扱うライブラリ群「ReactiveX」．
+- [ ] **redhat**｜企業・OS｜企業向けLinux「Red Hat Enterprise Linux」などを提供する企業．
+- [ ] **redis**｜データベース｜高速なインメモリ型キーバリューストア．キャッシュやキューに使う．
+- [ ] **redux**｜状態管理｜JavaScriptアプリの状態を一元管理するライブラリ．
+- [ ] **regex**｜文字列処理｜正規表現．文字列の検索，抽出，置換パターンを記述する仕組み．
+- [ ] **remix**｜Webフレームワーク｜Web標準とサーバーレンダリングを重視するReactフレームワーク．
+- [ ] **replit**｜クラウドIDE｜ブラウザ上でコード作成，実行，共有，公開ができる開発環境．
+- [ ] **rider**｜IDE｜JetBrains製の.NET／C#向け統合開発環境．
+- [ ] **robloxstudio**｜ゲーム開発｜Roblox向けゲームや仮想空間を制作する公式エディタ．
+- [ ] **rocket**｜Webフレームワーク｜Rust製のWebフレームワーク．
+- [ ] **rollupjs**｜ビルドツール｜JavaScriptモジュールをまとめるバンドラー．ライブラリ開発で多用される．
+- [ ] **ros**｜ロボティクス｜ロボット用ソフトウェアを構築するミドルウェア群．
+- [ ] **ruby**｜プログラミング言語｜読みやすさを重視した動的言語．Railsなどで使われる．
+- [ ] **rust**｜プログラミング言語｜メモリ安全性と高性能を両立するシステムプログラミング言語．
+- [ ] **sass**｜CSS｜CSSを拡張し，変数，ネスト，関数などを使えるプリプロセッサ．
+- [ ] **spring**｜Webフレームワーク｜Java／Kotlin向けの大規模アプリ開発フレームワーク群．
+- [ ] **sqlite**｜データベース｜単一ファイルで動作する軽量な組込みリレーショナルDB．
+- [ ] **stackoverflow**｜コミュニティ｜プログラミングの質問と回答を共有するQ&Aサイト．
+- [ ] **styledcomponents**｜CSS-in-JS｜Reactでコンポーネント単位にCSSを書くライブラリ．
+- [ ] **sublime**｜エディタ｜高速で軽量なテキストエディタ「Sublime Text」．
+- [ ] **supabase**｜BaaS｜PostgreSQLを中心に認証，DB，ストレージを提供するBaaS．
+- [ ] **scala**｜プログラミング言語｜JVM上で動くオブジェクト指向・関数型言語．
+- [x] **sklearn**｜機械学習｜scikit-learn．分類，回帰，クラスタリングなどの機械学習ライブラリ．
+- [x] **selenium**｜テスト｜ブラウザ操作を自動化するツール．E2Eテストやスクレイピングに使う．
+- [ ] **sentry**｜監視｜アプリの例外，クラッシュ，性能問題を収集・分析するサービス．
+- [ ] **sequelize**｜ORM｜Node.js向けのSQLデータベースORM．
+- [ ] **sketchup**｜3D制作｜建築や空間設計で使われる直感的な3Dモデリングソフト．
+- [ ] **solidity**｜プログラミング言語｜Ethereum系ブロックチェーンのスマートコントラクト言語．
+- [ ] **solidjs**｜UIライブラリ｜細粒度リアクティブ更新を特徴とするJavaScript UIライブラリ．
+- [ ] **svelte**｜Webフレームワーク｜コンパイル時に効率的なJavaScriptへ変換するUIフレームワーク．
+- [x] **svg**｜画像形式｜拡大しても劣化しにくいXMLベースのベクター画像形式．
+- [ ] **swift**｜プログラミング言語｜Apple製の言語．iOS，macOSアプリ開発で使われる．
+- [ ] **symfony**｜Webフレームワーク｜PHP製の高機能Webアプリケーションフレームワーク．
+- [ ] **tailwind**｜CSS｜ユーティリティクラスを組み合わせてUIを作るCSSフレームワーク．
+- [ ] **tauri**｜デスクトップ｜Web UIとRustバックエンドで軽量なデスクトップアプリを作る基盤．
+- [x] **tensorflow**｜機械学習｜Google発の深層学習・数値計算ライブラリ．
+- [ ] **terraform**｜インフラ｜クラウド構成をコードで定義・管理するInfrastructure as Codeツール．
+- [x] **threejs**｜3D Web｜WebGLを使った3D表現を簡単にするJavaScriptライブラリ．
+- [x] **twitter**｜SNS｜旧Twitter，現在のXを示すアイコン．
+- [ ] **ts**｜プログラミング言語｜TypeScript．JavaScriptに静的型付けを加えた言語．
+- [x] **ubuntu**｜OS｜使いやすさと豊富な情報量を持つDebian系Linuxディストリビューション．
+- [ ] **unity**｜ゲームエンジン｜2D／3Dゲーム，XR，シミュレーション開発向けエンジン．
+- [ ] **unreal**｜ゲームエンジン｜高品質な3D表現に強いゲームエンジン「Unreal Engine」．
+- [ ] **v**｜プログラミング言語｜シンプルさと高速コンパイルを重視するコンパイル言語「V」．
+- [ ] **vala**｜プログラミング言語｜GNOME／GTK向けに使われるC#風の言語．Cへ変換される．
+- [ ] **vercel**｜ホスティング｜Next.jsなどのフロントエンドを公開・運用するクラウドサービス．
+- [x] **vim**｜エディタ｜キーボード操作中心の高機能テキストエディタ．
+- [x] **visualstudio**｜IDE｜Microsoft製のWindows向け統合開発環境．主に.NETやC++で利用．
+- [ ] **vite**｜ビルドツール｜高速な開発サーバーとビルドを提供するフロントエンドツール．
+- [ ] **vitest**｜テスト｜Viteと相性のよいJavaScript／TypeScriptテストフレームワーク．
+- [x] **vscode**｜エディタ｜Microsoft製の拡張性が高いコードエディタ．
+- [ ] **vscodium**｜エディタ｜VS Codeを基に，Microsoftの配布物やテレメトリを除いたビルド．
+- [ ] **vue**｜Webフレームワーク｜段階的に導入できるJavaScript UIフレームワーク．
+- [ ] **vuetify**｜UIライブラリ｜Vue向けのMaterial Designコンポーネントライブラリ．
+- [ ] **wasm**｜Web技術｜WebAssembly．ブラウザ等で高速に実行できる低レベルバイナリ形式．
+- [ ] **webflow**｜ノーコード｜視覚的にWebサイトを設計・公開できるノーコードサービス．
+- [ ] **webpack**｜ビルドツール｜JavaScriptやCSSなどの依存関係をまとめるモジュールバンドラー．
+- [ ] **webstorm**｜IDE｜JetBrains製のJavaScript／TypeScript向け統合開発環境．
+- [ ] **windicss**｜CSS｜Tailwind CSS系のオンデマンド生成型ユーティリティCSSフレームワーク．
+- [x] **windows**｜OS｜MicrosoftのデスクトップOS．
+- [x] **wordpress**｜CMS｜ブログやWebサイトを構築・運用するCMS．
+- [ ] **workers**｜エッジ実行｜Cloudflare Workers．エッジ上でJavaScript／TypeScriptを実行するサービス．
+- [ ] **xd**｜デザイン｜Adobe XD．UI／UXデザインとプロトタイピング用ソフト．
+- [ ] **yarn**｜パッケージ管理｜Node.js向けパッケージマネージャー．
+- [ ] **yew**｜Webフレームワーク｜RustとWebAssemblyでWeb UIを作るフレームワーク．
+- [ ] **zig**｜プログラミング言語｜低レイヤー開発向けのシンプルなコンパイル言語．
+
+---
+
+合計：236項目
+
+## 補足
+
+- `ae`，`au`，`ai`，`ps`，`pr`，`xd`は，それぞれAdobe製品の略称です．
+- `cs`はC#，`cpp`はC++，`js`はJavaScript，`ts`はTypeScript，`py`はPythonを指します．
+- `bots`は特定製品名ではなく，主にDiscord Bot開発を示すアイコンです．
+- `twitter`は旧Twitterのロゴで，現在のサービス名はXです．
