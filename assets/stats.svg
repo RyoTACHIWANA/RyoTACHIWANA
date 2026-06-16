@@ -3,7 +3,7 @@
   <text x="25" y="34" font-size="18" font-weight="700" fill="#6f8ff7">RyoTACHIWANA's GitHub Stats</text>
   <g transform="translate(26,57) scale(0.7)" fill="#6f8ff7" stroke="#6f8ff7"><path d="M12 1.5l3.1 6.7 7.2.8-5.4 4.9 1.5 7.1L12 17.4 5.6 21l1.5-7.1L1.7 9l7.2-.8z"/></g>
   <text x="54" y="70" font-size="14" fill="#8b949e">Total Stars Earned:</text>
-  <text x="300" y="70" font-size="14" font-weight="700" text-anchor="end" fill="#6f8ff7">4</text>
+  <text x="300" y="70" font-size="14" font-weight="700" text-anchor="end" fill="#6f8ff7">3</text>
   <g transform="translate(26,81) scale(0.7)" fill="#6f8ff7" stroke="#6f8ff7"><circle cx="12" cy="12" r="4.2" fill="none" stroke-width="2.6"/><line x1="0.5" y1="12" x2="7.8" y2="12" stroke-width="2.6"/><line x1="16.2" y1="12" x2="23.5" y2="12" stroke-width="2.6"/></g>
   <text x="54" y="94" font-size="14" fill="#8b949e">Total Commits:</text>
   <text x="300" y="94" font-size="14" font-weight="700" text-anchor="end" fill="#6f8ff7">27</text>
@@ -18,6 +18,6 @@
   <text x="300" y="166" font-size="14" font-weight="700" text-anchor="end" fill="#6f8ff7">0</text>
   <circle cx="400" cy="105" r="42" fill="none" stroke="#8b949e" stroke-opacity="0.25" stroke-width="6"/>
   <circle cx="400" cy="105" r="42" fill="none" stroke="#6f8ff7" stroke-width="6" stroke-linecap="round"
-          stroke-dasharray="9.3 263.9" transform="rotate(-90 400 105)"/>
+          stroke-dasharray="7.8 263.9" transform="rotate(-90 400 105)"/>
   <text x="400" y="105" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="800" fill="#6f8ff7">C</text>
 </svg>
