@@ -12,9 +12,9 @@
 <!-- ============ Trophies (self-generated, auto-updated every 6h) ============ -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/trophies-dark.svg?v=1781588314">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/trophies-light.svg?v=1781588314">
-  <img alt="trophies" src="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/trophies-light.svg?v=1781588314">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/trophies-dark.svg?v=1781759381">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/trophies-light.svg?v=1781759381">
+  <img alt="trophies" src="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/trophies-light.svg?v=1781759381">
 </picture>
 
 <!-- ============ Typing animation ============ -->
@@ -131,11 +131,11 @@ status:      Open to research collaboration
 
 <div align="center">
 
-<img height="165" alt="GitHub stats" src="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/stats.svg?v=1781588314">
+<img height="165" alt="GitHub stats" src="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/stats.svg?v=1781759381">
 &nbsp;
-<img height="165" alt="top languages" src="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/top-langs.svg?v=1781588314">
+<img height="165" alt="top languages" src="https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/top-langs.svg?v=1781759381">
 
-![streak](https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/streak.svg?v=1781588314)
+![streak](https://raw.githubusercontent.com/RyoTACHIWANA/RyoTACHIWANA/main/assets/streak.svg?v=1781759381)
 
 </div>
 

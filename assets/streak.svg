@@ -1,6 +1,6 @@
 <svg width="495" height="165" viewBox="0 0 495 165"
   xmlns="http://www.w3.org/2000/svg" role="img"
-  aria-label="RyoTACHIWANA's contribution streak: current 4 days, longest 4 days, total 30">
+  aria-label="RyoTACHIWANA's contribution streak: current 0 days, longest 4 days, total 30">
   <style>
     text { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
     .num { font-size: 28px; font-weight: 800; }
@@ -21,9 +21,9 @@
   <circle cx="247.5" cy="60" r="33" fill="none" stroke="#fb8c00" stroke-width="5" stroke-opacity="0.25"/>
   <circle cx="247.5" cy="60" r="33" fill="none" stroke="#fb8c00" stroke-width="5" stroke-linecap="round"
           stroke-dasharray="207.3" transform="rotate(-90 247.5 60)"/>
-  <text class="ringnum" x="247.5" y="60" text-anchor="middle" dominant-baseline="central" fill="#fb8c00">4</text>
+  <text class="ringnum" x="247.5" y="60" text-anchor="middle" dominant-baseline="central" fill="#fb8c00">0</text>
   <text class="label" x="247.5" y="112" text-anchor="middle" fill="#fb8c00">Current Streak</text>
-  <text class="sub" x="247.5" y="132" text-anchor="middle" fill="#8b949e">Jun 13, 2026 - Jun 16, 2026</text>
+  <text class="sub" x="247.5" y="132" text-anchor="middle" fill="#8b949e">—</text>
 
   <!-- Longest Streak -->
   <text class="num" x="405.9" y="62" text-anchor="middle" fill="#6f8ff7">4</text>
