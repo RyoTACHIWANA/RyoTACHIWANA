@@ -12,12 +12,12 @@
   <text x="300" y="118" font-size="14" font-weight="700" text-anchor="end" fill="#6f8ff7">1</text>
   <g transform="translate(26,129) scale(0.7)" fill="#6f8ff7" stroke="#6f8ff7"><circle cx="12" cy="12" r="9.5" fill="none" stroke-width="2.6"/><circle cx="12" cy="12" r="3.2"/></g>
   <text x="54" y="142" font-size="14" fill="#8b949e">Total Issues:</text>
-  <text x="300" y="142" font-size="14" font-weight="700" text-anchor="end" fill="#6f8ff7">0</text>
+  <text x="300" y="142" font-size="14" font-weight="700" text-anchor="end" fill="#6f8ff7">1</text>
   <g transform="translate(26,153) scale(0.7)" fill="#6f8ff7" stroke="#6f8ff7"><path d="M5 2.5h13a1.5 1.5 0 0 1 1.5 1.5v16a1.5 1.5 0 0 1-1.5 1.5H6.5A2.5 2.5 0 0 1 4 19V4a1.5 1.5 0 0 1 1-1.5z" fill="none" stroke-width="2.2"/><line x1="8.2" y1="2.5" x2="8.2" y2="21.5" stroke-width="2.2"/></g>
   <text x="54" y="166" font-size="14" fill="#8b949e">Contributed to (last year):</text>
   <text x="300" y="166" font-size="14" font-weight="700" text-anchor="end" fill="#6f8ff7">0</text>
   <circle cx="400" cy="105" r="42" fill="none" stroke="#8b949e" stroke-opacity="0.25" stroke-width="6"/>
   <circle cx="400" cy="105" r="42" fill="none" stroke="#6f8ff7" stroke-width="6" stroke-linecap="round"
-          stroke-dasharray="17.6 263.9" transform="rotate(-90 400 105)"/>
+          stroke-dasharray="18.2 263.9" transform="rotate(-90 400 105)"/>
   <text x="400" y="105" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="800" fill="#6f8ff7">C</text>
 </svg>
